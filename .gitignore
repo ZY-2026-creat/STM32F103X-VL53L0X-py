@@ -1,0 +1,41 @@
+# ========== 编译生成的中间文件 ==========
+Objects/
+Listings/
+*.o
+*.d
+*.i
+*.ii
+*.crf
+*.lnp
+*.dep
+*.lst
+*.map
+*.axf
+*.elf
+*.hex
+*.bin
+*.lib
+*.htm
+*.build_log.htm
+*.sct
+
+# ========== Keil 个人IDE配置（不共享） ==========
+*.uvguix.*
+*.uvgui.*
+*.uvoptx
+*.uvopt
+
+# ========== 调试/下载器临时配置 ==========
+*.dbgconf
+JLinkSettings.ini
+*.jlink
+JLinkLog.txt
+*.ini
+
+# ========== 系统/编辑器临时文件 ==========
+Thumbs.db
+desktop.ini
+.vscode/
+*.bak
+*.tmp
+*.log
